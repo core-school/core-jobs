@@ -9,7 +9,9 @@ const index_page = () => {
     <>
       <section tw="bg-indigo-800">
         <div tw="container mx-auto py-36 px-5">
-          <h1 tw="text-7xl font-bold uppercase text-indigo-100">CORE Jobs</h1>
+          <h1 tw="text-7xl font-bold uppercase text-indigo-100 text-indigo">
+            CORE Jobs
+          </h1>
           <h2 tw="text-3xl font-bold uppercase text-indigo-400">
             Land in your dream tech job
           </h2>

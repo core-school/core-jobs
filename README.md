@@ -29,3 +29,7 @@ npx tailwindcss-cli@latest init --full
 ## Next emotion
 
 - https://github.com/ben-rogerson/twin.examples/tree/master/next-emotion
+
+## `twin.macro` with Tailwind vscode extension
+
+- https://github.com/ben-rogerson/twin.macro/discussions/227

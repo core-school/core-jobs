@@ -30,6 +30,7 @@
   "devDependencies": {
     "@coreschool/eslint-config": "^1.0.4",
     "@types/react": "^17.0.11",
-    "eslint": "^7.28.0"
+    "eslint": "^7.28.0",
+    "postcss": "^8.3.5"
   }
 }
