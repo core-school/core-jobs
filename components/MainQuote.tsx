@@ -8,7 +8,7 @@ export const MainQuote = () => {
       <h3 tw="text-6xl font-bold">"Love Code" is the way we roll</h3>
       <p tw="text-3xl my-10 text-gray-500 leading-loose">
         We want our <Remark>students</Remark> to raise their career inside a
-        company that share the same CORE values of Delivering quality,
+        company that share the same CORE values of Delivering code quality,
         <Remark>Transparency</Remark>, Honesty and Tolerance.
       </p>
       <div tw="text-xl text-center">

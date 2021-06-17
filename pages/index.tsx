@@ -2,7 +2,7 @@ import tw from "twin.macro";
 import _ from "lodash";
 import { PhotoCard } from "../components/PhotoCard";
 import { MainQuote } from "../components/MainQuote";
-import { JobCard } from "../components/JobCard";
+import { JobOffers } from "../components/JobOffers";
 
 const index_page = () => {
   return (
@@ -23,12 +23,8 @@ const index_page = () => {
       <section tw="container mx-auto py-36 px-5">
         <MainQuote />
       </section>
-      <section tw="container mx-auto pb-36 px-5 divide-y divide-indigo-300">
-        <JobCard />
-        <JobCard />
-        <JobCard />
-        <JobCard />
-        <JobCard />
+      <section tw="container mx-auto pb-36 px-5 divide-y divide-indigo-500">
+        <JobOffers />
       </section>
       <footer tw="text-center pb-10">
         <img src="/large_logo.png" width="300" tw="inline-block" />
