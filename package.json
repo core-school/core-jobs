@@ -31,6 +31,8 @@
     "@coreschool/eslint-config": "^1.0.4",
     "@types/react": "^17.0.11",
     "eslint": "^7.28.0",
+    "eslint-config-next": "^11.1.2",
+    "eslint-plugin-react": "^7.25.1",
     "postcss": "^8.3.5"
   }
 }

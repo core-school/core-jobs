@@ -10,12 +10,13 @@ export default class MyDocument extends Document {
   }
 
   render() {
+    const { ids, css } = this.props as any;
     return (
       <Html lang="en">
         <Head>
           <style
-            data-emotion-css={this.props.ids.join(" ")}
-            dangerouslySetInnerHTML={{ __html: this.props.css }}
+            data-emotion-css={ids.join(" ")}
+            dangerouslySetInnerHTML={{ __html: css }}
           />
         </Head>
         <body>
