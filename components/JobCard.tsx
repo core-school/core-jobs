@@ -14,7 +14,7 @@ export const JobCard: React.FC<JobOffer> = ({
       <div>
         <div tw="text-3xl font-bold pb-3 flex items-center">
           {["remote", "remote_possible"].includes(location) && (
-            <div tw="mr-3 w-3 h-3 bg-indigo-500 rounded-full" />
+            <div tw="mr-3 w-3 h-3 bg-indigo-500 rounded-full ring-4 animate-ping" />
           )}
           <h3 tw="m-0 p-0">{role}</h3>{" "}
         </div>

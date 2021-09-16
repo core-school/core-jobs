@@ -7,10 +7,10 @@ import { JobOffers } from "../components/JobOffers";
 const index_page = () => {
   return (
     <>
-      <section tw="bg-indigo-800">
+      <section tw="bg-gradient-to-tr from-indigo-900 to-indigo-500">
         <div tw="container mx-auto py-36 px-5">
-          <h1 tw="text-7xl font-bold uppercase text-indigo-100 text-indigo">
-            CORE Jobs
+          <h1 tw="text-7xl font-bold uppercase text-indigo-100">
+            CORE Jobs HOLA
           </h1>
           <h2 tw="text-3xl font-bold uppercase text-indigo-400">
             Land in your dream tech job
@@ -25,6 +25,7 @@ const index_page = () => {
       <section tw="container mx-auto py-36 px-5">
         <MainQuote />
       </section>
+      /
       <section tw="container mx-auto pb-36 px-5 divide-y divide-indigo-500">
         <JobOffers />
       </section>

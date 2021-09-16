@@ -10,7 +10,7 @@ export const JobOffers = () => {
       {jobs.map((job) => (
         <JobCard {...job} key={job.id} />
       ))}
-      <div tw="text-center pt-10">
+      <div tw="text-center pt-20">
         <p tw="p-0 m-0">See more</p>
         <div tw="animate-bounce">
           <ChevronDownIcon size={16} />
