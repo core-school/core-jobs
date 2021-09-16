@@ -1,5 +1,7 @@
 # Tailwind + Next.js: CORE Code School
 
+**See the demo here:** https://tailwind-react-demo.app.faable.com/
+
 ![](https://api-cabled.app.faable.com/screenshot?url=https://core-brand-cards.app.faable.com/?title=Tailwind%20and%20Next.js)
 
 ## How to run this repo
